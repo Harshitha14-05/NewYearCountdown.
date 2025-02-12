@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown to new year</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap"rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@600;800&display=swap" rel="stylesheet"/>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="s.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="heading">
+        <h3>Countdown Till</h3>
+        <h1>2025</h1>
+      </div>
+      <div class="countdown">
+        <div class="box">
+          <span class="num" id="day-box">00</span>
+          <span class="text">Days</span>
+        </div>
+        <div class="box">
+          <span class="num" id="hr-box">00</span>
+          <span class="text">Hours</span>
+        </div>
+        <div class="box">
+          <span class="num" id="min-box">00</span>
+          <span class="text">Minutes</span>
+        </div>
+        <div class="box">
+          <span class="num" id="sec-box">00</span>
+          <span class="text">Seconds</span>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fireworks-js/dist/fireworks.js"></script>
+
+  <div id="fireworks-container" class="hidden">
+    <h1><i>Happy New Year</i><br>
+      Welcome To 2025
+    </h1>
+    <h3>
+    <p> As we step into 2025, let us welcome this new chapter with hearts full of gratitude and minds brimming with hope. The New Year is a time of reflection and renewal, a chance to leave behind what no longer serves us and embrace fresh beginnings with open arms.
+         May this year bring you countless opportunities to chase your dreams and achieve your goals. Let it be a year where every sunrise brings a renewed sense of purpose and every sunset leaves you with a sense of fulfillment. Remember, no dream is too big, and no goal is too far, as long as you believe in your abilities and keep moving forward with determination.
+         "Sending you all my love and best wishes for a prosperous and healthy 2025. May this year bring endless joy into your life."</p>
+    </h3>
+    <h2>
+      Wishes from<br>-Harshitha
+    </h2>
+    <canvas id="fireworks"></canvas>
+  </div>
+
+  <!-- Audio element for fireworks sound -->
+  <audio id="fireworks-sound" preload="auto">
+    <source src="sound effect.mp3" type="audio/mp3">
+    <source src="sound effect.mp3" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+  
+    <!-- Script -->
+    <script src="scri.js"></script>
+  </body>
+</html>     
